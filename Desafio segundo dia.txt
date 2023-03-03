@@ -1,0 +1,14 @@
+const nome = prompt("Qual o seu nome?");
+const idade = prompt("Quantos anos você tem?");
+const linguagem = prompt("Qual linguagem de programação você está estudando?");
+const apresentacao = `"Olá ${nome}, você tem ${idade} anos e já está aprendendo ${linguagem}!"!`;
+
+alert(apresentacao);
+
+const linguagem = prompt(`Você gosta de estudar ${linguagem}? Responda com o número 1 - SIM ou 2 - NÃO`);
+if (linguagem == 1){
+    alert("Parabéns! Continue com os estudos e boa sorte.");
+}
+if (linguagem == 2){
+    alert("Tudo bem, existem várias linguagens para ser estudada, já tentou alguma outra ?");
+}
